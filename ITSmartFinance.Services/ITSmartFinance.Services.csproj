@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <Win32Resource />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITSmartFinance.Models\ITSmartFinance.Models.csproj" />
+    <ProjectReference Include="..\ITSmartFinanceTest.Data\ITSmartFinanceTest.Data.csproj" />
+  </ItemGroup>
+
+</Project>
